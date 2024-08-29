@@ -1,6 +1,7 @@
 // Axios is the framework we will be using to calling the API
 
 const axios = require('axios');
+require('dotenv').config();
 
 
 // This is the function where the call to the API is made. Returns the summarized text as a string.
